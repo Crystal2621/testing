@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>hover</title>
+	<style type="text/css">
+		p{
+			width:100px;
+			height:100px;
+			background-color:antiquewhite;
+		}
+		p:hover{
+			width:200px;
+			height:200px;
+			background-color:#ffad2a;
+			transition-delay:150ms;
+			-webkit-transition-duration:1000ms;
+			transition-timing-function:ease-out;
+		}
+	</style>
+</head>
+<body>
+<p></p>
+</body>
+
+</html>
